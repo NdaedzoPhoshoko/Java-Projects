@@ -1,0 +1,25 @@
+object is used to access data member and method in class
+
+syntax of declaring the object
+nameOfClass nameOfOBject = new nameOfClass(); //declare an object in java
+
+example
+//Scanner myInput = new Scanner(System.in);
+
+Synonym of function in called Method
+........................................................
+Why use a static keyword on functions
+
+Data members may be declared outside the main method
+this data members will not be used in the main method, unless we declare them with the keyword static
+
+example:
+static int varName;
+
+or 
+static void myFunction()
+{
+    //bluh bluh body
+}
+
+Since both this myFunction and varName are having keyword static, they can now be used in the main method or anywhere 

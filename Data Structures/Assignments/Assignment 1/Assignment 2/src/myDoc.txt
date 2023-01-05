@@ -1,0 +1,45 @@
+customer 1
+name  : ...g..
+last name  kkfkfkf
+id    2 3 4 55 6 
+balance owe   12.55
+
+customer 2
+name  : ...g..
+last name  kkfkfkf
+id    2 3 4 55 6 
+balance owe   12.55
+
+customer 3
+name  : ...g..
+last name  kkfkfkf
+id    2 3 4 55 6 
+balance owe   12.55
+
+There is a class called File that can create a new file
+It has a contructor File("name.txt") that creates a new file
+"name.txt" becomes the name of the txt document
+File class is imported in java.io.File;
+
+Well, in order to write any file, of course, you use a writer()
+writer is a method inside a class FileWriter
+FileWriter class is imported in java.io.FileWriter;
+writer() accepts arguments which are type byte[]
+
+1 byte = 8 bits
+Do you know that each character is 8 bits?
+so meaning 
+    byte myVar = 'A';
+and also 
+    byte[] = {'B', 'o', 'o', 'K', ' ', '1'};
+
+So let us go back to writer(byte[] o), dont forget that o is type byte[]
+
+
+/*
+Relative path is the name of the file
+e.g  src\myClass.java
+
+Path is the overall path that points the location where a file is stored
+C:\Users\Cleme\Desktop\programming java\Java projects\Data Structures\Assignments\Assignment 1\Assignment 2\src\myClass.java
+*/

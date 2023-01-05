@@ -1,0 +1,60 @@
+Java is mostly focusing on objects and classes
+-Objects are declared, of type nameOfClass
+-Objects access elements of the class they belong to
+
+How to declare an object of type nameOfClass
+    nameOfClass nameOfObject = new nameOfClass();
+
+exmaple 
+     LinkedList<Integer> mylist = new LinkedList<Integer>();
+    LinkedList<Character> mylist = new LinkedList<Character>();
+    LinkedList<String> mylist = new LinkedList<String>();
+    ...etc
+- what is the "new" keyword ? Its just allocating memory to nameOfObject
+
+here nameOfClass() is a method/function
+but since it shares the name of the class, meaning it is a construtor
+- a construtor is a method that executes automatically when we create a new Object
+
+Note: In java constructors are created automatically, even though they are not shown in the source code
+
+example
+
+public class myClass
+{
+    public myClass() //constructor for displaying titles
+    {
+        System.out.print("We are coding tonight...");
+    }
+    public static void main(String[] args)
+    {  //drive here
+        myClass myObject = new myClass(); //this auto runs the constructor
+    }
+}
+
+We have classes and data types in java
+
+classes    vs    data types
+Integer         int
+String          -nothing at all
+Character        char 
+Double         double
+Object          -nothing at all        example { 'A', 12 , "hghghg" , 12.5}
+Byte           byte         are 8-bits              example { 'A', 255}
+
+...........................................
+
+Interface
+- is a collection of methods that do not have a definition
+- it can be implemented by another Interface/ a class
+
+Note: to use "implements" keyword means we are inheriting from the parent class
+
+Difference between the Interface and a class
+-A class has a constructor
+-An Interface has no constructor, only a collection of methods without definitions
+
+NOte: Instance of a class reffers to an object of a class
+- when we declare an object, we call it instantiate the class
+  - meaning we want to use the object to access elements of a class
+  

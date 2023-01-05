@@ -1,0 +1,8 @@
+Lets talk about constructors
+
+Constructor
+- Has a name of the class
+- Is a method/ function
+- Has a definition, it can be used to initialize things, or display titles
+- It can or not pass the parameters/ arguments
+- It gets called( automatically) when you declare an object of the class

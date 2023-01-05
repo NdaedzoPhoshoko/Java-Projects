@@ -1,0 +1,60 @@
+Write an application that throws
+and catches an ArithmeticException when you attempt to take the
+square root of a negative value. Prompt the user for an input value
+and try the Math.sqrt() method on
+it.The application either displays the square root or catches the thrown Exception
+and displays an
+appropriate message.
+
+
+2. Create a program that allows a user to input customer records (ID number, first name, last name,
+and balance owed) and save each record to a file.
+
+
+3. Write an application for Limpopo’s Car Care Shop that shows a user a list of available services: oil
+change, tire rotation, battery check, or brake inspection. Allow the user to enter a string that
+corresponds to one of the options, and display the option and its price as R250, R220, R150, or R50,
+accordingly. Display an error message if the user enters an invalid item.
+
+Exception - is a class
+          - contains a lot of classes for error detecting
+          - can be thrown using the keyword throws
+          example - ArithmeticException
+                  - TypeMismatchException
+                  - many more
+
+try
+{
+    //put an expression that you wanna verify
+    results = a/b;
+}catch(ArithmeticException error_obj) 
+{
+    //if there is an error detected
+    //display the error message with error_obj.getMessage();
+}finally
+{
+    //If the error has not been detected or has been detected, finally will always be considered
+}
+
+But sometimes, its better to generalize, meaning inside a catch
+say:  
+      catch(Exception error)
+      {
+          //display error.getMessage();
+      }
+
+Another way can be using if statements
+
+if(something not wanted in your code)
+{
+    throws new AnyException();   
+}else
+   {
+       //this will continue;
+   }
+
+//how we declare object of the name nameClass
+nameClass nameObject = new NameClass();
+
+//how we declare object of an Exception class
+Exception myObject = new Exception();

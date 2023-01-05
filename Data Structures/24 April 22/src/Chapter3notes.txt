@@ -1,0 +1,89 @@
+First topic
+
+What is a modulo remainder(besides how to calculate it?)
+-Operator "%";
+-Amount "leftover" after performing some computation;
+-The remainder is the integer "leftover" after dividing one integer by another
+-example:
+      if(9 % 5 == 4) is true why?
+                       well, look at this  9 is the numberator, 5 is a devisior
+                                 : 9 / 5 = 1.8;
+                                     then 1.8 - 1 = 0.8;
+                                               remainder = 0.8*devisor = 0.8*5 = 4;
+- so, 6 % 2 = 0 why?   6/2 = 3.0   0.0*2 = 0
+7mod2 = 7%2 = 3.5 remainder = 3.5-3 = 0.5*2 = 1
+
+try  25mod26
+try 34mod200
+
+7mod2 = 1
+7 days in week, and we already awoke the first 4, then what is the remainder
+3 is remainder, proof: 7/4 = 1.75 remainder = (1.75-1)*4 = 0.75*4 =3 hence 3 days remaining
+.......................................................................................
+Second topic
+How to use Mathy.Random() function in Java
+-Of course, to generate random numbers within a range
+.......................................................................................
+Third: Revision: page 24 problem
+.......................................................................................
+Fourth: Revision again: How to use &&, ||, !, ^;
+&& - AND operator
+(5==5) &&(4>2)= true
+(6<4) &&(4>2) = false
+
+|| - OR op  ( T+F= T)
+(6>4)|| (4>6) =  true
+  true || false = true
+
+!  - NOT op
+!(true) = false
+
+^  - XOR op ( why? because both operands should not be true)
+1 ^ 1 = 0
+1 ^ 0 = 1
+0 ^ 0 = false
+0 ^ 1 = 1
+
+
+
+what is !(weight == 150) equals to, when weight = 40
+also check us too!
+var++, var--
++, - (Unary plus and minus), ++var,--var
+(type) Casting
+! (Not)
+*, /, % (Multiplication, division, and remainder)
++, - (Binary addition and subtraction)
+<, <=, >, >= (Relational operators)
+==, !=; (Equality)
+^ (Exclusive OR)
+&& (Conditional AND) Short-circuit AND
+|| (Conditional OR) Short-circuit OR
+=, +=, -=, *=, /=, %= (Assignment operator)
+b += 2; // b = b+2;
+b *= 2; // b = b*2;
+b %= 2; // b = b%2;
+......................................................................................
+Sixth: Solve the problem on page 33
+.......................................................................................
+Seventh: Solve the problem on page 38
+.......................................................................................
+Eighth: What on earth is a SWITCH statement
+
+switch(value)
+{
+  case value1: ...
+    break;
+  case value2: ...
+    break;
+  .
+  .
+  case valueN: ...
+    break;
+  default: .....
+}
+.......................................................................................
+Nineth : Conditional statement
+      y = (x > 0) ? 1 : -1; 
+(boolean-expression) ? expression1 : expression2
+.......................................................................................

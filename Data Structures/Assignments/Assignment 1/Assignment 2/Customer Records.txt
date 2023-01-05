@@ -1,0 +1,55 @@
+
+CUSTOMER RECORDS
+
+Customer 1
+ID number   : 122220
+First Name  : Nthaby
+Last Name   : Maddix
+Balance Owed: R12,66
+
+Customer 2
+ID number   : 30000
+First Name  : Ndaedzo
+Last Name   : Kea
+Balance Owed: R300,46
+
+Customer 3
+ID number   : 22202020
+First Name  : Ndfadj
+Last Name   : hghthhd
+Balance Owed: R5656,33
+CUSTOMER RECORDS
+
+Customer 1
+ID number   : 1234567891123
+First Name  : 
+Last Name   : rrrrr
+Balance Owed: R2333,56
+CUSTOMER RECORDS
+CUSTOMER RECORDS
+
+Customer 1
+ID number   : 0
+First Name  : 3333
+Last Name   : eeee
+Balance Owed: R55,67
+CUSTOMER RECORDS
+
+Customer 1
+ID number   : 1234567812345
+First Name  : ndaedzo
+Last Name   : phoshoko
+Balance Owed: R230,45
+CUSTOMER RECORDS
+
+Customer 1
+ID number   : 1234567891012
+First Name  : ndaedzo
+Last Name   : phoshoko
+Balance Owed: R123,6
+
+Customer 2
+ID number   : 1234567890111
+First Name  : werrg
+Last Name   : ggtttt
+Balance Owed: R34
