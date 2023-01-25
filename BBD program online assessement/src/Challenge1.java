@@ -3,8 +3,8 @@
 public class Challenge1 {
     public static void main(String[] args) {
         //start here
-        int[] arr = {6,3,28};
-        for(int a=0; a<3; a++)
+        int[] arr = {3, 6, 3, 28};
+        for(int a=0; a<arr.length; a++)
         {
             System.out.println(Solve(arr[a]));
         }
